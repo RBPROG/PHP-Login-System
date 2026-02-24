@@ -58,7 +58,19 @@
                         <?php } else { ?>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="../dashboard">Dashboard</a>
+                                <a class="nav-link" href="../dashboard">Panel</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../hospitales">Hospitales</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../investigadores">Investigadores</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../register">Registro</a>
                             </li>
 
                             <li class="nav-item">

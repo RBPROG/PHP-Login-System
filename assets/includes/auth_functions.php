@@ -16,6 +16,7 @@ function check_logged_in() {
 function check_logged_in_butnot_verified(){
 
     if (isset($_SESSION['auth'])){
+        echo $_SESSION['auth'];
 
         if ($_SESSION['auth'] == 'loggedin') {
     
@@ -50,7 +51,6 @@ function check_logged_out() {
 function check_verified() {
 
     if (isset($_SESSION['auth'])) {
-
         if ($_SESSION['auth'] == 'verified') {
 
             return true;
